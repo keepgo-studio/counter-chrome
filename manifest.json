@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Character counter",
+  "version": "0.0.1",
+
+  "default_locale": "en",
+  "description": "The extension that counts number of characters which is users had typed",
+  "permissions": ["storage", "tabs"],
+  
+  "author": "keepgo.studio@gmail.com",
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "modules/webcomponents-bundle.js",
+        "content-script.js"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["modules/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

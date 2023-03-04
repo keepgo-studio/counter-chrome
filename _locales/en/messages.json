@@ -1,0 +1,19 @@
+{
+  "styleTitle": {
+    "message": "Choose preferred theme"
+  },
+
+  "count": {
+    "message": "total"
+  },
+
+  "button": {
+    "message": "app"
+  },
+  "active": {
+    "message": "active"
+  },
+  "inactive": {
+    "message": "inactive"
+  }
+}

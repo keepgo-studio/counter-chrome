@@ -1,0 +1,19 @@
+{
+  "styleTitle": {
+    "message": "원하는 테마를 고르세요"
+  },
+  
+  "count": {
+    "message": "글자 수"
+  },
+
+  "button": {
+    "message": "기능"
+  },
+  "active": {
+    "message": "켜기"
+  },
+  "inactive": {
+    "message": "끄기"
+  }
+}
