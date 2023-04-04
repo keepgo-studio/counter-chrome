@@ -35,6 +35,9 @@ window.onload = async () => {
 
   const observer = new MutationObserver(function (mutations, observer) {
     // fired when a mutation occurs
+
+    if (active === 'false') return;
+    
     app.remove();
     app.init(current_theme);
     // ...
