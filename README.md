@@ -2,9 +2,15 @@
 
 입력한 input 값의 총 길이가 몇인지 알려 주는 Chrome Extension
 
+## skills
+
 vanilla JS로 구현
 
-아래는 예시 사진
+## description
+
+store 배포를 할 예정이 없기 때문에 이 repository를 clone한 뒤 개발자 모드로 chrome extension을 별도 설치해주어야 함
+
+## examples
 
 naver입력창
 
